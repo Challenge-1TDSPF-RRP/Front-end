@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    background-color: #169ca653;
+}
+
+header nav ul li a{
+    color: #1277BD; 
+}
