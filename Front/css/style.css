@@ -19,6 +19,9 @@ header{
     width: 100vw;
     height: 10vh;
     background-color: #169ca653;
+    border-color: #1277BD;
+    border-width: 1px;
+    border-style: solid;
 }
 
 header h1{
@@ -63,9 +66,12 @@ header nav ul li a{
     align-items: center;
     background-color: #169ca653;
     width: 90vw;
-    height: 60vh;
+    height: 73vh;
     margin: 15px;
     border-radius: 8px;
+    border-color: #1277BD;
+    border-style: solid;
+    border-width: 1px;
 }
 
 .hero h2{
@@ -78,12 +84,60 @@ header nav ul li a{
 .hero img{
     margin-top: 15px;
     max-width: 80vw;
-    border-radius: 10px;
+    border-radius: 5px;
+    border-color: #1277BD;
 }
 
-.hero p{
-    color: #1277BD;
-    margin-top: 15px;
+.hero div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 5px;
+    row-gap: 5px;
+    margin-top: 10px;
+}
+
+.button{
+    display: flex;
+    width: 38vw;
+    height: 10vh;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.918);
+    border-color: rgba(255, 255, 255, 0.5);
+    background-color: #1277BD;
+    border-style: double;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+#botao-1{
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.918);
+    border-color: rgba(255, 255, 255, 0.5);
+    background-color: #1277BD;
+    border-style: double;
+    padding: 5px;
+    margin-top: 20px;
     font-size: large;
     text-align: center;
+}
+
+footer{
+    background-color: #169ca653;
+    padding: 100px;
+    border-color: #1277BD;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.button1 img{
+    width: 8vw;
+    background-color: aliceblue;
+}
+
+.button1{
+    font-weight: 700;
+    font-size: 11px;
 }
