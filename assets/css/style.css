@@ -16,8 +16,8 @@ header{
     flex-direction: row;
     align-items: center;
 
-    width: 100vw;
-    height: 10vh;
+    width: 100%;
+    padding: 10px;
     background-color: #169ca653;
     border-color: #1277BD;
     border-width: 1px;
@@ -63,7 +63,9 @@ header nav ul li a{
 main{
     display: flex;
     justify-content: center;
+    align-items: center;
     margin: 15px;
+    height: 100vh;
 }
 
 .hero{
@@ -72,7 +74,7 @@ main{
     align-items: center;
     background-color: #169ca653;
     width: 90vw;
-    height: 73vh;
+    height: 90vh;
     border-radius: 8px;
     border-color: #1277BD;
     border-style: solid;
@@ -131,7 +133,8 @@ main{
 
 footer{
     background-color: #169ca653;
-    padding: 100px;
+    width: 100%;
+    padding: 20px;
     border-color: #1277BD;
     border-width: 1px;
     border-style: solid;
