@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     list-style: none;
     text-decoration: none;
 }
@@ -107,8 +107,8 @@ main{
 
 .button{
     display: flex;
-    width: 38vw;
-    height: 10vh;
+    width: 40vw;
+    height: 12vh;
     border-radius: 5px;
     color: rgba(255, 255, 255, 0.918);
     border-color: rgba(255, 255, 255, 0.5);
@@ -125,6 +125,7 @@ main{
     border-color: rgba(255, 255, 255, 0.5);
     background-color: #1277BD;
     border-style: double;
+    width: 80vw;
     padding: 5px;
     margin-top: 20px;
     font-size: large;
@@ -140,12 +141,13 @@ footer{
     border-style: solid;
 }
 
-.button1 img{
-    width: 8vw;
+.button img{
+    width: 26px;
+    height: 26px;
     background-color: aliceblue;
 }
 
-.button1{
+.button{
     font-weight: 700;
-    font-size: 11px;
+    font-size: 10px;
 }
