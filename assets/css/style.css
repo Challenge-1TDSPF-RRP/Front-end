@@ -11,6 +11,13 @@ html {
   font-size: 62.5%;
 }
 
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 header{
     display: flex;
     flex-direction: row;
@@ -63,8 +70,9 @@ header nav ul li a{
 
 main{
     display: flex;
-    align-items:center;
-    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
 }
 
 .hero{
@@ -87,6 +95,7 @@ main{
     margin-top: 15px;
     color: #1277BD;
     font-size: large;
+    text-align: center;
 
 }
 
@@ -120,28 +129,9 @@ main{
     align-items: center;
     text-align: center;
     flex-direction: column;
-}
-
-#botao-1{
-    border-radius: 5px;
-    color: rgba(255, 255, 255, 0.918);
-    border-color: rgba(255, 255, 255, 0.5);
-    background-color: #1277BD;
-    border-style: double;
-    width: 80vw;
-    padding: 5px;
-    margin-top: 20px;
-    font-size: large;
-    text-align: center;
-}
-
-footer{
-    background-color: #169ca653;
-    width: 100%;
-    height: 10vh;
-    border-color: #1277BD;
-    border-width: 1px;
-    border-style: solid;
+    font-weight: 700;
+    font-size: 12px;
+    gap: 10px;
 }
 
 .button img{
@@ -150,12 +140,30 @@ footer{
     background-color: aliceblue;
 }
 
-.button{
-    font-weight: 700;
-    font-size: 10px;
-    gap: 10px;
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #169ca653;
+    width: 100%;
+    min-height: 10vh;
+    border-color: #1277BD;
+    border-width: 1px;
+    border-style: solid;
 }
 
+#logo-footer{
+    width: 80px;
+    margin: 10px;
+}
+
+footer div a{
+    color: #1277BD;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 15px;
+}
 
 .faq{
     display: flex;
@@ -172,4 +180,26 @@ footer{
 .resposta{
     color: #1277BD;
     padding-left: 20px;
+}
+
+.contato{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.link-contato{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    font-weight: bold;
+    color: #1277BD;
+    font-size: 15px;
+}
+
+.link-img{
+    color: #1277BD;
+    width: 30px;
+    padding: 10px;
 }
