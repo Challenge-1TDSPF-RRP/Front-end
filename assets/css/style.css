@@ -35,22 +35,18 @@ header h1{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-start;
     margin: 10px;
 }
 
 header nav ul{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
 }
 
 header nav ul li{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
     font-size: 20px;
     font-weight: 700;
     color: #1277BD;
@@ -62,7 +58,6 @@ header nav ul li a{
     margin: 8px;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
     color: #1277BD;
     font-size: 15px;
 }
@@ -159,6 +154,9 @@ footer{
 }
 
 footer div a{
+    display: flex;
+    align-items: center;
+    gap: 3;
     color: #1277BD;
     font-size: 12px;
     font-weight: 700;
