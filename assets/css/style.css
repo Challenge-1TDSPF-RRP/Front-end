@@ -101,7 +101,13 @@ main{
     color: #1277BD;
     font-size: large;
     text-align: center;
+}
 
+.hero p{
+    color: #1277BD;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px;
 }
 
 .hero img{
@@ -120,6 +126,65 @@ main{
     row-gap: 5px;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.hero div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    color: rgba(255, 255, 255, 0.900);
+    font-size: 20px;
+    font-weight: 700;
+    margin: 5px;
+}
+
+.hero div form fieldset legend{
+    color: #1277BD;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+.hero div form fieldset{
+    border: 0;
+}
+
+.hero div form fieldset input{
+    padding: 10px;
+    border-radius: 5px;
+    border: solid;
+    border-width: 1px;
+    border-color: #169ca6c9;
+}
+
+input::placeholder {
+  color: #169ca6c9; 
+  font-weight: bold;
+  background-color: white;
+  font-size: 13px;
+}
+
+.hero div form fieldset button{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    border-radius: 5px;
+    border: solid;
+    border-width: 1px;
+    border-color: #169ca6c9;
+    width: 19rem;
+    color: #169ca6c9;
+    font-weight: bold;
+    font-size: 13px;
+    background-color: white;
+} 
+
+.hero div form fieldset button img{
+    margin-left: 5px;
+    width: 17px;
+    margin-bottom: 14px;
+    margin-right: 5px;
 }
 
 .button{
