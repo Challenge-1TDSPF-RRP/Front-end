@@ -87,7 +87,7 @@ main{
     align-items: center;
     background-color: #169ca653;
     max-width: 100%;
-    max-height: 100%;
+    min-height: 60vh;
     margin: 10px;
     padding: 10px;
     border-radius: 8px;
@@ -103,6 +103,35 @@ main{
     font-size: large;
     text-align: center;
 }
+
+.hero h1{
+    margin-top: 20px;
+    color: #1277BD;
+    font-size: large;
+    text-align: center;
+}
+
+#btnvoltar{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-color: #169ca656;
+    width: 60vw;
+    border: solid;
+    border-radius: 5px;
+    border-color: #169ca6c9;
+    border-width: 1px;
+    font-size: large;
+    color: #1277BD;
+    font-weight: 500;
+}
+
+#btnvoltar img{
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+
 
 .hero p{
     display: flex;
