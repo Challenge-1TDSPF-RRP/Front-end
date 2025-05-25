@@ -85,6 +85,7 @@ main{
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     background-color: #169ca653;
     max-width: 100%;
     min-height: 60vh;
@@ -98,10 +99,13 @@ main{
 }
 
 .hero h2{
+    display: flex;
+    align-items: center;
     margin-top: 15px;
     color: #1277BD;
     font-size: large;
     text-align: center;
+    gap: 3px;
 }
 
 .hero h1{
@@ -190,7 +194,7 @@ main{
 }
 
 input::placeholder {
-  color: #169ca6c9; 
+  color: #1277BD; 
   font-weight: bold;
   background-color: white;
   font-size: 13px;
@@ -205,7 +209,7 @@ input::placeholder {
     border-width: 1px;
     border-color: #169ca6c9;
     width: 19rem;
-    color: #169ca6c9;
+    color: #1277BD;
     font-weight: bold;
     font-size: 13px;
     background-color: white;

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    
+    <header>
+        <h1><img src="./img/logo.svg" alt="logo"></h1>
+        <nav>
+            <ul>
+                <li><a href="./inicio.html">Início</a></li>
+                 <li>|</li>
+                <li><a href="./contato.html">Contato</a></li>
+                 <li>|</li>
+                <li><a href="./faq.html">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2><img src="./img/perfil.svg" alt="perfil">Informações do paciente</h2>
+
+            <div>
+                <form action="#" method="GET" id="frmsenha">
+                    <fieldset>
+                        <legend>Nome:</legend>
+                        <div>
+                            <input type="text" name="name" id="idNome" placeholder="Nome">
+                        </div>
+                        <legend>Idade:</legend>
+                        <div>
+                            <input type="number" name="idade" id="idIdade" placeholder="Idade">
+                        </div>
+                        <legend>Gênero</legend>
+                        <div>
+                            <input type="text" name="genero" id="idGenero" placeholder="Gênero">
+                        </div>
+                        <legend>Cpf:</legend>
+                        <div>
+                            <input type="text" name="Cpf" id="idCpf" placeholder="Cpf">
+                        </div>
+                        <legend>Email:</legend>
+                        <div>
+                            <input type="email" name="Email" id="idEmail" placeholder="Email">
+                        </div>
+                        <div>
+                            <button type="button" id="btnEditarDados"><img src="./img/editar.svg" alt="editar dados">Editar dados</button>
+                        </div>
+                        <div>
+                            <button type="button" id="btnRedefinirSenha"><img src="./img/editar.svg" alt="editar dados">Redefinir senha</button>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>  
+            
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <a href="">
+                <img src="./img/telefone.svg" alt="telefone">
+                Telefone (11) 2661-0000
+            </a>
+            <a href="">
+                <img src="./img/link.svg" alt="link">
+                Link do HC
+            </a>
+        </div>
+        <img src="./img/logo.svg" alt="logo" id="logo-footer">
+    </footer>
+
+</body>
+</html>
