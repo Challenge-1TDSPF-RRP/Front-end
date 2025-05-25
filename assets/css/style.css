@@ -88,6 +88,7 @@ main{
     justify-content: center;
     background-color: #169ca653;
     max-width: 100%;
+    min-width: 80vw;
     min-height: 60vh;
     margin: 10px;
     padding: 10px;
@@ -105,7 +106,11 @@ main{
     color: #1277BD;
     font-size: large;
     text-align: center;
-    gap: 3px;
+    gap: 10px;
+}
+
+.hero h2 img{
+    margin-bottom: 10px;
 }
 
 .hero h1{
@@ -202,6 +207,7 @@ input::placeholder {
 
 .hero div form fieldset button{
     display: flex;
+    justify-content: center;
     flex-direction: row-reverse;
     align-items: center;
     border-radius: 5px;
@@ -209,6 +215,7 @@ input::placeholder {
     border-width: 1px;
     border-color: #169ca6c9;
     width: 19rem;
+    padding: 5px;
     color: #1277BD;
     font-weight: bold;
     font-size: 13px;
@@ -323,3 +330,4 @@ footer div p{
     width: 30px;
     padding: 10px;
 }
+
