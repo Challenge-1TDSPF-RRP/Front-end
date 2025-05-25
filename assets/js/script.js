@@ -59,8 +59,3 @@ function recuperarSenha(event) {
   }
 }
 
-
-function opensidebar(){
-    document.getElementById("sidebar").style.width = "250px";
-}
-
