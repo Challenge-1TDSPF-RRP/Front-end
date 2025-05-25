@@ -3,64 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Saúde Digital +Simples</title>
-
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style-login-cadastro.css">
+    <title>Login Saúde Digital +Simples</title>
 </head>
-
 <body>
     
-    <header>
-        <h1><img src="./assets/img/logo.svg" alt="logo"></h1>
-        <nav>
-            <ul>
-                <li><a href="./index.html">Início</a></li>
-                 <li>|</li>
-                <li><a href="./assets/contato.html">Contato</a></li>
-                 <li>|</li>
-                <li><a href="./assets/faq.html">FAQ</a></li>
-            </ul>
-        </nav>
-    </header>
-
     <main>
         <section class="hero">
-            <h2>Saúde Digital +Simples</h2>
-            <img src="./assets/img/medico.svg" alt="medico">
-            <h2>Como podemos te ajudar hoje?</h2>
-            <div class="hero-buttons">
-                <a href="#" class="button">
-                    <img src="./assets/img/agente.svg" alt="suporte">
-                    Chame o nosso suporte
-                </a>
-                <a href="#" class="button">
-                    <img src="./assets/img/login.svg" alt="login">
-                    Problemas com login
-                </a>
-                <a href="#" class="button">
-                    <img src="./assets/img/agendamento.svg" alt="agendamento">
-                    Problemas com agendamento
-                </a>
-                <a href="#" class="button">
-                    <img src="./assets/img/senha.svg" alt="senha">
-                    Esqueci minha senha
-                </a>
-            </div>       
+
+            <h1>Boas vindas!</h1>
+
+            <h2><img src="./assets/img/logo-branca.svg" alt="logo branca">Centro de ajuda ao Hospital das Clinicas</h2>
+
+            <div>
+                <form action="#" method="GET" id="frmContato">
+                    <fieldset>
+                        <legend>Login:</legend>
+                        <div>
+                            <input type="email" name="Email" id="idEmail" placeholder="Email">
+                        </div>
+                        <div>
+                            <input type="text" name="senha" id="idSenha" placeholder="Senha">
+                        </div>
+                        <div>
+                            <button type="submit" id="btnEntrar"><img src="./assets/img/seta-direita.svg" alt="seta para a direita">Entrar</button>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+
+            <p id="p-login">Não tem um login? <a href="" id="links">Cadastre-se</a> </p>
+
+            <p id="p-login">Problemas com o login? Veja a nossa <a href="" id="links">Solução de Problemas</a></p>
+
         </section>
     </main>
 
     <footer>
         <div>
-            <a href="">
-                <img src="./assets/img/telefone.svg" alt="telefone">
+            <p>
+                <img src="./assets/img/telefone-branco.svg" alt="telefone branco">
                 Telefone (11) 2661-0000
-            </a>
+            </p>
             <a href="">
-                <img src="./assets/img/link.svg" alt="link">
-                Link do HC
+                <img src="./assets/img/link-branco.svg" alt="link branco">
+                Site do HC
             </a>
         </div>
-        <img src="./assets/img/logo.svg" alt="logo" id="logo-footer">
+        <img src="./assets/img/logo-branca.svg" alt="logo branca" id="logo-footer">
     </footer>
 
 </body>

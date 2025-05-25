@@ -76,6 +76,16 @@ footer{
     min-height: 10vh;
 }
 
+footer div p{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 15px;
+}
+
 footer div a{
     display: flex;
     align-items: center;
@@ -146,18 +156,26 @@ button img{
     margin-left: 5px;
     width: 17px;
 }
-.hero div p{
-    justify-content: center;
+#p-login{
     display: flex;
-    flex-direction: column;
+    text-align: justify;
     flex-wrap: wrap;
+    color: white;
     font-weight:500;
     font-size: 11px;
+    margin-left: 44px;
+    margin-bottom: 5px;
     gap: 5px;
-    margin-left: 32px;
 }
 
-.hero div p a{
+#links{
     color: white;
     text-decoration:underline;
+}
+
+#p-cadastro{
+    color: white;
+    font-size: 11px;
+    text-align: center;
+    font-weight: 500;
 }

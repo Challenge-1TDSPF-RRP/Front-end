@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style-login-cadastro.css">
-    <title>Login Saúde Digital +Simples</title>
+    <title>Cadastro Saúde Digital +Simples</title>
 </head>
+
 <body>
     
     <main>
@@ -18,12 +19,30 @@
             <div id="login">
                 <form action="#" method="GET" id="frmContato">
                     <fieldset>
-                        <legend>Login:</legend>
+                        <legend>Cadastro:</legend>
+                        <div>
+                            <input type="text" name="Nome" id="idNome" placeholder="Nome">
+                        </div>
+                        <div>
+                            <input type="text" name="Cpf" id="idCpf" placeholder="Cpf">
+                        </div>
                         <div>
                             <input type="email" name="Email" id="idEmail" placeholder="Email">
                         </div>
                         <div>
-                            <input type="text" name="senha" id="idSenha" placeholder="Senha">
+                            <input type="number" name="Telefone" id="idTelefone" placeholder="Telefone">
+                        </div>
+                        <div>
+                            <input type="number" name="Idade" id="idIdade" placeholder="Idade">
+                        </div>
+                        <div>
+                            <input type="text" name="Gênero" id="idGenero" placeholder="Gênero">
+                        </div>
+                        <div>
+                            <input type="password" name="Senha" id="idSenha" placeholder="Senha">
+                        </div>
+                        <div>
+                            <input type="password" name="Senha" id="idConfSenha" placeholder="Confirmar Senha">
                         </div>
                         <div>
                             <button type="submit" id="btnEntrar"><img src="./img/seta-direita.svg" alt="seta para a direita">Entrar</button>
@@ -32,23 +51,17 @@
                 </form>
             </div>
 
-            <div>
-                <p>Não tem um login? 
-                    <a href="">Cadastre-se</a>
-
-                    Problemas com o login? Veja a nossa <a href="">Solução de Problemas</a>
-                </p>
-            </div>
+            <p id="p-cadastro">Já tem um login? <a href="" id="links">Faça login</a></p>
 
         </section>
     </main>
 
     <footer>
         <div>
-            <a href="">
+            <p>
                 <img src="./img/telefone-branco.svg" alt="telefone branco">
                 Telefone (11) 2661-0000
-            </a>
+            </p>
             <a href="">
                 <img src="./img/link-branco.svg" alt="link branco">
                 Site do HC
