@@ -331,3 +331,43 @@ footer div p{
     padding: 10px;
 }
 
+.integrantes{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    background-color: #169ca653;
+    max-width: 100%;
+    min-width: 80vw;
+    min-height: 60vh;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    border-color: #1277BD;
+    border-style: solid;
+    border-width: 1px;
+    overflow: auto;
+}
+
+.integrantes h2{
+    color: #1277BD;
+    font-size: large;
+    margin: 5px;
+}
+
+.integrantes div p{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 11px;
+    font-weight: bold;
+    flex-direction: row;
+    gap: 5px;
+    color: #1277BD;
+    margin: 5px;
+}
+
+.integrantes div p img{
+    width: 100px;
+    border-radius: 5px;
+}
