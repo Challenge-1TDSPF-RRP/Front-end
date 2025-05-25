@@ -38,6 +38,16 @@ header h1{
     margin: 10px;
 }
 
+header a{
+    display: flex;
+    align-items: center;
+    color: #1277BD;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 10px;
+    gap: 3px;
+}
+
 header nav ul{
     display: flex;
     flex-direction: row;
@@ -156,11 +166,21 @@ footer{
 footer div a{
     display: flex;
     align-items: center;
-    gap: 3;
+    gap: 5px;
     color: #1277BD;
     font-size: 12px;
     font-weight: 700;
-    padding: 15px;
+    padding: 10px;
+}
+
+footer div p{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #1277BD;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 10px;
 }
 
 .faq{
@@ -172,12 +192,13 @@ footer div a{
 
 .pergunta{
     font-weight: 700;
-    font-size: 12px;
+    font-size: 14px;
     color: #1277BD;
 }
 .resposta{
     color: #1277BD;
-    padding-left: 20px;
+    font-size: 13px;
+    font-weight: 400;
 }
 
 .contato{
