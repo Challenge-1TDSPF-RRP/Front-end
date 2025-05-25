@@ -82,6 +82,7 @@ main{
 
 .hero{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     background-color: #169ca653;
@@ -104,6 +105,11 @@ main{
 }
 
 .hero p{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: justify;
     color: #1277BD;
     font-size: 14px;
     font-weight: 500;
@@ -128,26 +134,22 @@ main{
     margin-bottom: 10px;
 }
 
-.hero div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: justify;
-    color: rgba(255, 255, 255, 0.900);
-    font-size: 20px;
-    font-weight: 700;
-    margin: 5px;
-}
 
 .hero div form fieldset legend{
     color: #1277BD;
+    font-weight: 500;
     font-size: 14px;
     text-align: center;
+    margin: 3px;
 }
 
 
 .hero div form fieldset{
     border: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
 }
 
 .hero div form fieldset input{
@@ -189,6 +191,7 @@ input::placeholder {
 
 .button{
     display: flex;
+    flex-wrap: wrap;
     width: 40vw;
     height: 12vh;
     border-radius: 5px;
