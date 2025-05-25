@@ -72,6 +72,13 @@ header nav ul li a{
     font-size: 15px;
 }
 
+header nav ul li button{
+    border: none;
+    background-color: #169ca600;
+    margin: 5px;
+    margin-top: 8px;
+}
+
 
 main{
     display: flex;

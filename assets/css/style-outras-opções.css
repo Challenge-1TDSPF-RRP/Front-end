@@ -16,6 +16,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #169DA6;
+
 }
 
 header{
@@ -31,6 +32,8 @@ header{
     border: none;
     outline: none;
 }
+
+
 
 .sidebar div{
     display: flex;

@@ -58,3 +58,9 @@ function recuperarSenha(event) {
     alert("Usuário não encontrado!");
   }
 }
+
+
+function opensidebar(){
+    document.getElementById("sidebar").style.width = "250px";
+}
+
